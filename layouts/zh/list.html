@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head.html" . }}
+    <body>
+        {{ partial "header-zh.html" . }}
+        <main class="main"> 
+           <div class="container">
+                <img src="../img/favicon.png" alt="tradcoin-logo" width="150px" style="margin-bottom: 2rem;"> 
+                {{ .Content }}
+                {{ partial "footer.html" . }}
+           </div>
+        </main>
+    </body>
+</html>
